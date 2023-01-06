@@ -78,4 +78,4 @@ def converter(expression):
         vector.append(number)
     return vector
 
-generate_data()
+#generate_data()

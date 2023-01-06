@@ -3,7 +3,7 @@ import json
 import re
 import torch
 
-from model import NeuralNet
+from bot_model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 from math_model import NeuralNet as M_model
