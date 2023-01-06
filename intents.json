@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "pi",
+      "patterns": ["What is pi equal to?", "Pi constant"],
+      "responses": ["Approximately 3.14"]
+    },
+    
+    {
+      "tag": "skills",
+      "patterns": [
+        "What can you do?",
+        "What are your skills?"
+      ],
+      "responses": [
+        "I can perform basic operations on integers and I know few jokes!"
+      ]
+    },
+    {
+      "tag": "proposition",
+      "patterns": [
+        "I want to solve some math problems",
+        "Can you calculate something for me?",
+        "I have equations for you!"
+      ],
+      "responses": [
+        "I will help with pleasure."
+      ]
+    },
+    {
+      "tag": "Maths",
+      "patterns": [
+        "What is 1414 + 211",
+        "What is 11672 / 1432",
+        "What is 13264 - 1124",
+        "What is - 13264 + 1124",
+        "What is 6781 * 1678",
+        "-9-1",
+        "-124/4",
+        "214+124",
+        "9*9",
+        "181948*-19248",
+        "Can you calculate 120914-153093?",
+        "Can you calculate -120914-153093?",
+        "Can you calculate 1035 + 1353?",
+        "I want you to calculate 142-1245",
+        "I want you to calculate 9812+114",
+        "Do you know what is 6781 + 431?",
+        "Do you know what is -1278/214?",
+        "Do you know what is 1678 - 1432?",
+        "Do you know what is 1786 * 11?",
+        "Do you know what is 147 / 4131?"
+      ],
+      "responses": [
+        "ToDo: implement AI calculator"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "One more joke!",
+        "Next joke!"
+      ],
+      "responses": [
+        "Parallel lines have so much in common ... It's a shame they'll never meet",
+        "I met a math teacher who had 12 children. She really knows how to multiply!",
+        "Why was six afraid of seven? Because seven, eight, nine!",
+        "How do you keep warm in a cold room?\nYou go to the corner because it's always 90 degrees.",
+        "What is the value of the contour integral around Western Europe?\nBecause all poles are in Eastern Europe!",
+        "A physicist, a biologist, and a mathematician are sitting on a bench across from a house. They watch as two people go into the house, and then a little later, three people walk out.\nThe physicist says; The initial measurement was incorrect. The biologist says, They must have reproduced. And the mathematician says, If exactly one person enters that house, it will be empty.",
+        "An infinite number of mathematicians walk into a bar. The first one orders a beer. The second orders half a beer. The third orders a third of a beer. The bartender bellows, ''Get the hell out of here, are you trying to ruin me?''",
+        "Two statisticians go bird hunting. The first one fires at the bird but overshoots by 5 feet. The second one fires and undershoots the bird by 5 feet. They both give each other a high-five and say: ''Got it''!"
+      ]
+    }
+  ]
+}

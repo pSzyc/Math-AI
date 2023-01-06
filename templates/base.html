@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Math Sam</h1>
+
+        <p>AI trained to understand basic math</p>
+
+        <p>Chatbot Sam was taught to perform basic mathematical operation on integers. Check it on your own! <strong>Open the chat by clicking on the icon below and  greet him!</strong></p>
+
+        <p>Behind Sam there are two feed-forward neural networks. First one, given user input, decides which type of predefined response to use and the second one tries to evaluate expression converted to a vector</p>
+        <p>Equations which Sam understand are those consisting of two values and an operator, for instance 1410 + 2137  </p>
+    </div>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img class = "sushek" src="{{ url_for('static', filename='images/sushek.png') }}"/>
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Math Sam</h4>
+                        <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chat-icon.jpg') }}" width="35"  height="35" /></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
