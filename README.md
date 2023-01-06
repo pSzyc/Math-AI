@@ -24,4 +24,4 @@ https://github.com/hitchcliff/front-end-chatjs </br>
 This repo was used for bot implementation:
 https://github.com/patrickloeber/pytorch-chatbot </br>
 Check out the second link for better understandment of the code</br>
-Chat bot was made by Przemysław Szyc and Ignacy Stachura as a final project for nlp classes.  
+Chat bot was made by <strong>Przemysław Szyc and Ignacy Stachura </strong> as a final project for nlp classes.  
