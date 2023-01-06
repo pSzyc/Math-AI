@@ -1,6 +1,6 @@
 # Chatbot for the nlp project
-Chat bot can perform basic operations on numbers such as addition, subtraction, multiplication and division. It can also hold basic consversation and even be a little funny :)
-Chat bot was made by Przemysław Szyc and Ignacy Stachura as a final project for nlp classes.  
+Chat bot can perform basic operations on numbers such as addition, subtraction, multiplication and division (Sometimes he's terrible at doing it!). It can also hold basic consversation and even be a little funny :)
+
 ## Install dependencies
 ```
 $ pip install Flask torch torchvision nltk
@@ -23,4 +23,5 @@ This repo was used for the frontend code:
 https://github.com/hitchcliff/front-end-chatjs </br>
 This repo was used for bot implementation:
 https://github.com/patrickloeber/pytorch-chatbot </br>
-Check out the second link for better understandment of the code
+Check out the second link for better understandment of the code</br>
+Chat bot was made by Przemysław Szyc and Ignacy Stachura as a final project for nlp classes.  
