@@ -1,5 +1,5 @@
 # Chatbot for the project
-Soon the main fuctionality will be implemented.
+Chat bot can perform basic operations on numbers such as addition, subtraction, multiplication and division. It can also hold basic consversation and even be a little funny :)
 ## Install dependencies
 ```
 $ pip install Flask torch torchvision nltk
@@ -22,4 +22,4 @@ This repo was used for the frontend code:
 https://github.com/hitchcliff/front-end-chatjs </br>
 This repo was used for bot implementation:
 https://github.com/patrickloeber/pytorch-chatbot </br>
-Check out the second link to understand the code easily
+Check out the second link for better understandment of the code
